@@ -16,9 +16,9 @@ var feelGoodAboutMyself = true
 
 feelGoodAboutMyself = amICool ? true : false
 
-var bankAccountBalance = 100
+var bankAccountBalance = 0
 
-var cashRegisterMessage = bankAccountBalance >= 150 ? "You just bought the item" : "You are broke as a joke"
+var cashRegisterMessage = bankAccountBalance >= 50 ? "You just bought the item" : "You are broke as a joke"
 
 
 
