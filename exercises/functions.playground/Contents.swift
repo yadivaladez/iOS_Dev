@@ -5,11 +5,27 @@ import UIKit
 var str = "Hello, playground"
 
 
-func addNum(num1, num2, Numsum){
-    let num1 = 5
-    let num2 = 10
+func addNum(num1:Int, num2: Int) -> Int{
     return num1 + num2
 }
+addNum(num1: 5, num2: 10)
+
+func subNum(num1: Int, num2: Int) -> Int{
+    return num2 - num1
+}
+
+subNum(num1: 9, num2: 7)
+
+func multNum(num1: float_t, num2:float_t)-> float_t{
+    return num1 * num2
+}
+multNum(num1: 1.5, num2: 2)
+
+func divNum (num1: float_t, num2: float_t)->float_t{
+    return num2 / num1
+}
+divNum(num1: 3.2, num2: 15.0)
+
 
 
 var shoppingList = ["catfish", "water", "tulips", "blue paint"]
