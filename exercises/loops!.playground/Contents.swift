@@ -27,13 +27,29 @@ employeeSalaries[0] = employeeSalaries[0] + (employeeSalaries[0] * 0.05)
 employeeSalaries[1] = employeeSalaries[1] + (employeeSalaries[1] * 0.05)
 employeeSalaries[2] = employeeSalaries[2] + (employeeSalaries[2] * 0.05)
 employeeSalaries[3] = employeeSalaries[3] + (employeeSalaries[3] * 0.05)
-
+print(employeeSalaries)
 
 //An even better method
-
+var employeeSalaries2 = [45000.0, 60000.0, 100000.0, 20000.0]
 var x = 0
 repeat {
-    employeeSalaries[x] = employeeSalaries[x] + (employeeSalaries[x] * 0.05)
+    employeeSalaries2[x] = employeeSalaries2[x] + (employeeSalaries2[x] * 0.05)
     x+=1
 } while (x < employeeSalaries.count)
 print(employeeSalaries)
+
+//EVEN BETTER!!! 
+var employeeSalaries3 = [45000.0, 60000.0, 100000.0, 20000.0]
+
+for i in 0..<employeeSalaries3.count{
+    employeeSalaries3[i] = employeeSalaries3[i] + (employeeSalaries3[i] * 0.05)
+}
+print(employeeSalaries2)
+
+for x in 1...5{
+    print ("index: \(x) \n")
+}
+
+for y  in 0..<5{
+    print("index: \(y)")
+}
