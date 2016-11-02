@@ -53,3 +53,28 @@ for x in 1...5{
 for y  in 0..<5{
     print("index: \(y)")
 }
+
+
+
+//for each loop
+
+for salary in employeeSalaries3{
+    print("Salary: \(salary)")
+}
+
+//
+var sum = 0
+
+
+for x in 1..<1000{
+    if  x%3 == 0{
+       sum = sum + x
+    }
+    else if x%5 == 0{
+        sum = sum + x
+    }
+   
+    print(sum)
+}
+
+
