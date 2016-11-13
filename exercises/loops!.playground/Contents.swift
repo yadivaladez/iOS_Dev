@@ -73,8 +73,7 @@ for x in 1..<1000{
     else if x%5 == 0{
         sum = sum + x
     }
-   
-    print(sum)
 }
+print(sum)
 
 
